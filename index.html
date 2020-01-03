@@ -198,32 +198,32 @@
 		      	<div class="service-wrapper">
 		      		<ul class="service-slider">
 			      		<li>
-			      			<a href="#" class="service-switcher">Доставка</a>
+			      			<a  id="Delivery" class="service-switcher">Доставка</a>
 			      		</li>
 			      		<li>
-			      			<a href="#" class="service-switcher">Гарантия</a>
+			      			<a  id="Guarantee" class="service-switcher">Гарантия</a>
 			      		</li>
 			      		<li>
-			      			<a href="#" class="service-switcher">Кредит</a>
+			      			<a  id="Credit"class="service-switcher">Кредит</a>
 			      		</li>
 			      	</ul>
 			      	<ul class="service-content">
-			        	<li>
-				          	<section class="service-card service-delivery">
+			        	<li class="service-card-hidden">
+				          	<section class="service-card" id="service-delivery">
 					            <h3>Доставка</h3>
 					            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж!
 					            </p>
 				          	</section>
 			        	</li>
 			       		<li class="service-card-hidden">
-				          	<section class="service-card service-guarantee">
+				          	<section class="service-card" id="service-guarantee">
 				            	<h3>Гарантия</h3>
 				            	<p>Если купленный у нас товар поломается или заискрит,<br>а также в случае пожара, спровоцированного его возгаранием,<br>вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>Дом уж восстановите как-нибудь сами.
 				            	</p>
 				          	</section>
 			        	</li>
 			        	<li class="service-card-hidden">
-			          		<section class="service-card service-credit">
+			          		<section class="service-card" id="service-credit">
 			            		<h3>Кредит</h3>
 			            		<p>Залезть в долговую яму стало проще!<br>Кредитные консультанты придут вам на помощь.
 			            		</p>
@@ -252,10 +252,10 @@
 
 			<section class="contacts">
 			    <h2>Контакты</h2>
-			    <p>Вы можете забрать товар сами,<br>заехав в наш офис:</p>
-			    <a href="https://www.google.com/maps">
-			        <img src="img/map.png" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург." width="300" height="158">
-			    </a>
+				<p>Вы можете забрать товар сами,<br>заехав в наш офис:</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.748967096635!2d24.00692501567493!3d49.82838317939438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7df5a9921f%3A0xc59052d9e18b2d4c!2sIppt%20Nu%20%22L%CA%B9vivs%CA%B9ka%20Politekhnika%22%2C%20Ivana%20Horbachevs&#39;koho%20St%2C%2018%2C%20L&#39;viv%2C%20L&#39;vivs&#39;ka%20oblast%2C%2079000!5e0!3m2!1sen!2sua!4v1571077467173!5m2!1sen!2sua" 
+  width="300" height="158" frameborder="0"  allowfullscreen=""></iframe>
+			    
 			    <button class="button button-more" type="button">Заблудились? Напишите нам!</button>
 			</section>
 	    </div>
@@ -372,5 +372,6 @@
 	    </a>
 	    <button class="modal-close" type="button">Закрыть</button>
 	</section>
+	<script src="JS/ServiceSlider.js"></script>
 </body>
 </html>
