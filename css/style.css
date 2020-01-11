@@ -2077,7 +2077,6 @@ input[type="range"]::-moz-range-progress {
 
 .modal {
 	position: fixed;
-
 	display: none;
 }
 
@@ -2223,7 +2222,7 @@ input[type="range"]::-moz-range-progress {
 
 .modal-map {
 	left: 50%;
-	bottom: 350px;
+	top:100px;
 	z-index: 999;
 
 	width: 940px;
@@ -2234,7 +2233,13 @@ input[type="range"]::-moz-range-progress {
 
 	        box-shadow: 0px 0px 14.72px 1.28px rgba(47, 42, 43, 0.5);
 }
+#map{
+	display: block;
 
+}
+#bigMap{
+	display: none;
+}
 .modal-success {
 	top: 410px;
 	left: 50%;
